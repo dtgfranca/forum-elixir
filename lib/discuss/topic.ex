@@ -1,8 +1,8 @@
-defmodule Discuss.DiscussWeb.Topic do
+defmodule Discuss.Topic do
   use Ecto.Schema
   import Ecto.Changeset
 
-  schema "topics" do
+  schema "topics1" do
     field :title, :string
 
     timestamps()

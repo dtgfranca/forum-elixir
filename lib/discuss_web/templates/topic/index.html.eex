@@ -8,8 +8,8 @@
 </ul>
 
 <div class="fixed-action-btn">
-    <%= link to: topic_path(@conn, :new),  class:"btn-floating btn-large waves-effect waves-ligtht red" do%>
-        <a href="/topics/new" class="btn-floating btn-large waves-effect waves-ligtht red">
+    <%= link to: Routes.topic_path(@conn, :new),  class: "btn-floating btn-large waves-effect waves-ligtht red" do %>
+
         <i class="material-icons">add</i>
         <% end %>
 
