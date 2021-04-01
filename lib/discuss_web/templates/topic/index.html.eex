@@ -5,7 +5,7 @@
         <%= topic.title %>
          <div class="right-align">
             <%= link "Edit", to: Routes.topic_path(@conn, :edit, topic) %>
-            <%= link "Delete", to: Routes.topic_path(@conn, :edit, topic) %>
+            <%= link "Delete", to: Routes.topic_path(@conn, :delete, topic) ,  method: :delete%>
          </div>
 
     </li>
